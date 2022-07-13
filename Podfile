@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'AppChallenge' do
+target 'AppChallengeIOS' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
@@ -18,7 +18,7 @@ target 'AppChallenge' do
   pod 'RxCocoa', '6.5.0'
   
   
-  target 'AppChallengeTests' do
+  target 'AppChallengeIOSTests' do
     inherit! :search_paths
     # Pods for testing
     
@@ -26,7 +26,7 @@ target 'AppChallenge' do
     pod 'RxTest', '6.5.0'
   end
 
-  target 'AppChallengeUITests' do
+  target 'AppChallengeIOSUITests' do
     # Pods for testing
   end
 
